@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Grade Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Student Grade Calculator</h1>
+
+  <table id="gradeTable">
+    <thead>
+      <tr>
+        <th>Student</th>
+        <th>CA 1 (out of 20)</th>
+        <th>CA 2 (out of 20)</th>
+        <th>CA 3 (out of 20)</th>
+        <th>Exam (out of 60)</th>
+        <th>Total (out of 100)</th>
+        <th>Grade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Student 1</td>
+        <td><input type="number" class="ca1" min="0" max="20"></td>
+        <td><input type="number" class="ca2" min="0" max="20"></td>
+        <td><input type="number" class="ca3" min="0" max="20"></td>
+        <td><input type="number" class="exam" min="0" max="60"></td>
+        <td class="total">0</td>
+        <td class="grade">-</td>
+      </tr>
+      <tr>
+        <td>Student 2</td>
+        <td><input type="number" class="ca1" min="0" max="20"></td>
+        <td><input type="number" class="ca2" min="0" max="20"></td>
+        <td><input type="number" class="ca3" min="0" max="20"></td>
+        <td><input type="number" class="exam" min="0" max="60"></td>
+        <td class="total">0</td>
+        <td class="grade">-</td>
+      </tr>
+      <tr>
+        <td>Student 3</td>
+        <td><input type="number" class="ca1" min="0" max="20"></td>
+        <td><input type="number" class="ca2" min="0" max="20"></td>
+        <td><input type="number" class="ca3" min="0" max="20"></td>
+        <td><input type="number" class="exam" min="0" max="60"></td>
+        <td class="total">0</td>
+        <td class="grade">-</td>
+      </tr>
+      <tr>
+        <td>Student 4</td>
+        <td><input type="number" class="ca1" min="0" max="20"></td>
+        <td><input type="number" class="ca2" min="0" max="20"></td>
+        <td><input type="number" class="ca3" min="0" max="20"></td>
+        <td><input type="number" class="exam" min="0" max="60"></td>
+        <td class="total">0</td>
+        <td class="grade">-</td>
+      </tr>
+      <tr>
+        <td>Student 5</td>
+        <td><input type="number" class="ca1" min="0" max="20"></td>
+        <td><input type="number" class="ca2" min="0" max="20"></td>
+        <td><input type="number" class="ca3" min="0" max="20"></td>
+        <td><input type="number" class="exam" min="0" max="60"></td>
+        <td class="total">0</td>
+        <td class="grade">-</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
